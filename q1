@@ -6,4 +6,28 @@ c = a
 print(a == b) # True – содержимое списков одинаково
 print(a is b) # False – это разные объекты в памяти
 print(a is c) # True – обе переменные указывают на один объект
+
 2)@classmethod и @staticmethod 
+
+3) Принципы работы Pandas
+4) Принципы работы Celery и Redis
+5) Минимальный опыт работы с Docker и Docker Compose
+6) Scrum 
+7) Чем генераторы отличаются от списковых ключей 
+8) Генераторы и итераторы
+9) как работает Deep copy
+10) почему Fast api быстрее из коробки чем Django или Flask 
+11) Асинхронность и многопоточность 
+12) Pydantic - зачем нужен 
+13) BaseModel 
+14) Swagger 
+
+SQL 
+15) что такое SQL alchimi и ORM
+16) INNER JOIN, LEFT JOIN, RIGHT JOIN
+17) как найти уникальные значения в столбце 
+18) Зачем нужен limit
+19) Зачем нужен 
+
+20) Что такое иденпотентность
+21) Методы REST
