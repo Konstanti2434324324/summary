@@ -7,27 +7,95 @@ print(a == b) # True – содержимое списков одинаково
 print(a is b) # False – это разные объекты в памяти
 print(a is c) # True – обе переменные указывают на один объект
 
-2)@classmethod и @staticmethod 
+2)@classmethod и @staticmethod - classmethod это означает, что данный метод может обращаться только к атрибутам текущего класса,
+но не к локальным свойствам его экземпляров. Мало того, этот метод можно теперь напрямую вызывать из класса res = Vector.validate(5)
 
 3) Принципы работы Pandas
+
 4) Принципы работы Celery и Redis
+
 5) Минимальный опыт работы с Docker и Docker Compose
+
 6) Scrum 
+
 7) Чем генераторы отличаются от списковых ключей 
+
 8) Генераторы и итераторы
+
 9) как работает Deep copy
+
 10) почему Fast api быстрее из коробки чем Django или Flask 
+
 11) Асинхронность и многопоточность 
+
 12) Pydantic - зачем нужен 
+
 13) BaseModel 
+
 14) Swagger 
 
 SQL 
 15) что такое SQL alchimi и ORM
+
 16) INNER JOIN, LEFT JOIN, RIGHT JOIN
+
 17) как найти уникальные значения в столбце 
+
 18) Зачем нужен limit
+
 19) Зачем нужен 
 
 20) Что такое иденпотентность
+
 21) Методы REST
+
+22) GIL: что это и когда мешает
+
+23) async/await: что реально дает, где подводные камни
+
+24) threading vs multiprocessing vs asyncio
+
+25) Context manager, генераторы, итераторы
+
+26) MRO, dataclass, typing/mypy — зачем
+
+27) HTTP методы, идемпотентность, коды ошибок
+
+28) JWT vs session, refresh tokens, CSRF
+
+29) Валидация входа, схемы, версионирование API
+
+30)DB индексы и EXPLAIN
+
+31) Транзакции и уровни изоляции
+
+32) Deadlock: почему и что делать
+
+33) N+1: где возникает и как лечить
+
+34) Redis cache-aside, TTL, stampede
+
+35) Rate limiting: подходы и хранение счетчиков
+
+36) Очереди: гарантия доставки, ретраи, DLQ
+
+37) Идемпотентность воркера/эндпойнта
+
+38)Монолит vs микросервисы — когда что
+
+39) Observability: logs/metrics/traces, correlation id
+
+40) Graceful shutdown, timeouts, retries
+
+41) Пулы соединений к БД, лимиты
+
+42) Pagination: offset vs cursor
+
+43) Обработка ошибок и контракт API
+
+44) Тесты: unit/integration, фикстуры, мокинг
+
+45) Безопасность: SQLi, XSS (в контексте API), secrets management
+
+46) Производительность: где мерить, как профилировать
+
